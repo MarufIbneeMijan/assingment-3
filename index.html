@@ -30,13 +30,16 @@
     background-size: cover;
 
   }
+  header{
+    background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  }
   </style>
 
   
 
 </head>
 <body class="manrope-font">
-        <header class="container mx-auto">
+        <header class="lg:w-3/4 container mx-auto overflow-hidden">
             <nav class=" my-14">
               <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -94,12 +97,12 @@
                       <li><a href="">Contact Us</a></li>
                     </ul>
                   </div>
-                  <div class="flex items-center gap-3 max-[576px]:hidden">
-                    <div class="p-2 rounded-[50%] text-[#737373] bg-[#FFFFFF] border-[1px] border-solid border-black">
+                  <div class="lg:flex items-center gap-3 hidden">
+                    <div class="p-2  text-[#737373] bg-[#FFFFFF] border-[1px] rounded-[50%]">
                       <a class=""><i class="fa-solid fa-magnifying-glass rounded"></i></a>
                     </div>
                     <div class="flex gap-3 max-[576px]:hidden">
-                      <div class="p-2 rounded-[50%] text-[#737373] bg-[#FFFFFF] border-[1px] border-solid border-black">
+                      <div class="p-2 rounded-[50%] text-[#737373] bg-[#FFFFFF] border-[1px]">
                         <a><i class="fa-solid fa-cart-shopping"></i></a>
                       </div>
                       <div class="p-2 bg-[#ABEF5F] rounded-[32px] border-[1px] border-solid ">
@@ -127,11 +130,11 @@
              </div>
         </header>
 
-        <main class=" bg-gray-200 my-6">
+        <main class=" w-full  my-6 overflow-hidden bg-gray-200">
           <!-- We design thoughtful, liveable spaces starts -->
            <div class="mb-9">
             <!-- main-caontaier  -->
-            <div class="hero  ">
+            <div class="hero bg-gray-200 ">
               <div class="hero-content flex-col-reverse lg:flex-row-reverse">
                
                   <img
@@ -217,7 +220,7 @@
             </div>
              <!-- oppotinoal-section ends  -->
         <!-- our work proccess starts  -->
-         <div class="text-center ">
+         <div class="text-center bg-gray-200 ">
           <button class="btn btn-wide text-center bg-white text-[#494949] rounded-[32px] font-extrabold mb-6"><i class="fa-solid fa-arrow-right"></i>How we works</button>
           <h1 class="text-black font-extrabold text-[40px]">Our Works Process</h1>
           <p class="text-[#494949] text-[16px] font-normal">The barn house captivates with its blend of rustic charm and  modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
@@ -246,12 +249,11 @@
             <p class="text-[16px] font-normal text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
           </div>
          </div>
-         <div class="h-[20px]"></div>
+         <div class="h-[20px] mb-7"></div>
          <!-- our work process ends  -->
-        </main>
-        <!-- our latest portfolio sart -->
-        <section class="mb-8">
-          <div class="container mx-auto bg-white">
+           <!-- our latest portfolio sart -->
+        <section class="mb-8 bg-white p-7 ">
+          <div class="container mx-auto ">
             <div class="text-center">
               <button class="btn btn-ghost rounded-[32px] bg-green-200 px-4 font-extrabold mb-4 "><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
               <h1 class="text-[40px] font-extrabold mb-7">Our Latest Portfolio</h1>
@@ -320,7 +322,7 @@
         </section>
          <!-- our latest portfolio end -->
          <!-- Read Our Articles and News starts -->
-          <section class="my-12  bg-gray-200 ">
+          <section class="my-12 w-full   bg-gray-200 ">
             <div class="py-12 text-center">
               <button class="btn px-7 font-extrabold bg-green-200 rounded-[32px]"><i class="fa-solid fa-arrow-right"></i>Rinterio News</button>
               <h1 class="text-[40px] font-extrabold mb-6">Read Our Articles and News</h1>
@@ -400,11 +402,13 @@
                 </div>
               </div>
             </div>
-            <div class="h-20">
+            <div class="h-20 w-full">
 
             </div>
           </section>
          <!-- Read Our Articles and News ends -->
+        </main>
+       
         <footer>
           <!-- next project start  -->
           <section class="next-project p-6">
